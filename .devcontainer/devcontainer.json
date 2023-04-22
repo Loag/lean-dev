@@ -1,0 +1,15 @@
+{
+  "name": "lean-dev",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "leanprover.lean4",
+        "eamodio.gitlens",
+        "PKief.material-icon-theme",
+        "enkia.tokyo-night"        
+      ]
+    }
+  },
+  "postCreateCommand": "sh .devcontainer/install-elan.sh"
+}
