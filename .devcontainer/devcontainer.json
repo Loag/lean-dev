@@ -1,15 +1,17 @@
 {
   "name": "lean-dev",
-  "dockerFile": "Dockerfile",
+  "image": "",
+  "features": {
+    "ghcr.io/Loag/lean-feature/elan:0": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
-        "leanprover.lean4",
         "eamodio.gitlens",
         "PKief.material-icon-theme",
-        "enkia.tokyo-night"        
+        "enkia.tokyo-night",
+        "leanprover.lean4"
       ]
     }
-  },
-  "postCreateCommand": "sh .devcontainer/install-elan.sh"
+  }
 }
