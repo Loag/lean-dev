@@ -1,6 +1,6 @@
 {
   "name": "lean-dev",
-  "image": "",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
     "ghcr.io/Loag/lean-feature/elan:0": {}
   },
